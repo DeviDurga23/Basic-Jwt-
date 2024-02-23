@@ -1,0 +1,12 @@
+<!-- <p>protectedcomponent works!</p> -->
+
+<div *ngIf="user">
+  <h2>Welcome, {{ user.username }}!</h2><br>
+  <p>Your user ID is {{ user.id }}</p><br>
+  <p> FirstName is {{ user.firstName }}</p><br>
+  <p> LastName is {{ user.lastName }}</p><br>
+</div>
+<div *ngIf="!user">
+  <p>No user information available.</p>
+</div>
+<button (click)=logout()>logout</button>

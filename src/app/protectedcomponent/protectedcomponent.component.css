@@ -1,0 +1,39 @@
+*{
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 6px;
+  /* border: 1px solid #ccc; */
+  padding-top: 0px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+  margin-top: 120px;
+  background-color: #e9c5c5ea ; 
+}
+
+ h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+
+ p {
+  margin: auto;
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+ button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+ button:hover {
+  background-color: #45a049;
+}
+
