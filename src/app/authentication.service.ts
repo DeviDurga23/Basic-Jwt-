@@ -22,3 +22,6 @@ export class AuthenticationService {
   return   this.http.post("https://dummyjson.com/auth/login",{username,password});
   }
 }
+//LOGIN DETAILS :
+//username: 'kminchelle'
+//password: '0lelplR'
